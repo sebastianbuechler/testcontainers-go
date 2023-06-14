@@ -1,6 +1,7 @@
 name: Postgres module pipeline
 
 on:
+  workflow_dispatch:
   push:
     paths-ignore:
     - 'mkdocs.yml'
